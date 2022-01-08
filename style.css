@@ -1,0 +1,8 @@
+.hero {
+   background-image: url("../images/urf.jpg");
+   height: 800px;
+   width: 100%;
+   margin-bottom: 25px;
+   background-size: cover;
+   background-position: center;
+}
