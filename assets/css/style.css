@@ -1,0 +1,131 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-row {
+    display: flex;
+    align-items: stretch;
+}
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    min-height: 100vh;
+    background-color: cadetblue;
+}
+
+  header {
+    padding: 20px 35px;
+    background-color: rgb(216, 216, 231);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 48px;
+    color: #fce138;
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+header a{
+    text-decoration: none;
+    color: #fce138;
+}
+
+ul {
+    list-style: none;
+   }
+
+ header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+    background: #fce138;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+.hero {
+    background-image: url("../images/urf.jpg");
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+ } 
+
+ .divider {
+    border-bottom: 1px solid black;
+    margin: 30px 0;
+    width: 40%;
+  }
+
+ .about-me {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto;
+  }
+
+  .me:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.project-heading {
+    text-align:center;
+    color:#102C4E;
+    margin-top: 150px;
+    margin-bottom:70px;
+    font-size: 35px;
+  }
+
+  .projects {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.work {
+    margin: 20px;
+    flex: 1;
+    background: #024e76;
+    color: #fce138;
+}
+
+
+.work img {
+    width: 100%;
+}
+
+@media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+}
