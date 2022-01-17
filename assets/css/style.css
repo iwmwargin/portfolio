@@ -125,21 +125,15 @@ img {
     padding: 60px;
     height: auto;
 } 
-.work img {
+.pic {
     max-width: 100%;
     display: block;
     height: auto;
-
 }
 
 .flex-row {
     flex-wrap: wrap;
     display: flex;
-}
-
-.pic {
-    display: block;
-    max-width: 100%;
 }
 
   .work {
