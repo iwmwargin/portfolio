@@ -137,6 +137,7 @@ img {
 .pic {
   max-width: 100%;
   display: block;
+  display: flex;
   height: auto;
 }
 
@@ -187,8 +188,8 @@ img {
 }
 
 .pic-2 {
-    height: 400px;
-    width: 300px;
+    height: 300px;
+    width: 250px;
     align-items: center;
     justify-content: space-between;
 }
